@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div className="container" style={{ padding: '20px' }}>
-      <h3 className="cursor-pointer" onClick={handleClick} style={{color:'red'}}>
+      <h3 className="cursor-pointer" onClick={handleClick}>
         {titleBtn}
       </h3>
       <input
