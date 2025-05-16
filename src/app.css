@@ -102,3 +102,30 @@ h3 {
 tbody {
   background-color: #fff;
 }
+@media (max-width:400px) {
+  h3 {
+    font-size: 16px;
+  }
+
+  .table-container {
+    min-width: 100%;
+    overflow-x: auto;
+  }
+
+table th {
+  font-size: 14px;
+}
+
+table td {
+  font-size: 12px;
+}
+
+span {
+  font-size: 10px;
+}
+
+.btn-page {
+  width: 20px;
+  height: 20px;
+}
+}
